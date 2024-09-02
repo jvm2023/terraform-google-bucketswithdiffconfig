@@ -10,12 +10,7 @@ terraform {
 
 
 
-provider "google" {
-  project = var.project_id
-  region  = "europe-west1"
-  zone    = var.zone
-  credentials = "key.json"
-}
+
 
 
 
